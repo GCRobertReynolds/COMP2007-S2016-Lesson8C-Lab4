@@ -14,7 +14,7 @@ namespace COMP2007_S2016_Lesson8C_Lab4.Controllers
         public ActionResult Index()
         {
             this.SubTitle = "Welcome!";
-            return View(SubTitle);
+            return View();
         }
 
         //GET: /Home/About
